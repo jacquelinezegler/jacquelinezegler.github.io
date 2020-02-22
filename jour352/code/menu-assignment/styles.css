@@ -1,12 +1,16 @@
 /* font-family: "Raleway", sans-serif; */
-#introduction {
+.introduction {
   font-family: "Raleway", sans-serif;
   text-align: center;
   color: #83A2A3;
-  image-orientation: center;
   width: 70%;
   margin: 0 auto 20px;
   line-height: 25px;
+}
+
+.introduction p {
+  width: 70%;
+  margin: 0 auto 20px;
 }
 
 .price {
@@ -42,19 +46,19 @@ p#kitchen {
   padding-bottom: 1px;
 }
 
-#FoodSection {
+.FoodSection {
   font-family: "Raleway", sans-serif;
   width: 50%;
   margin: 0 auto 20px;
   text-align: left;
 }
 
-#foodtitle ul {
+.foodtitle ul {
     list-style-type: square;
     margin-top: 1%;
 }
 
-#foodtitle h3 {
+.foodtitle h3 {
   color: #B50838;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -67,8 +71,7 @@ p#kitchen {
 
 }
 
-#recommended {
-  border: top right bottom left;
+.recommended {
   border-style: dotted;
   border-color: #CCCCCC;
   border-width: 2px;
@@ -90,7 +93,7 @@ p#kitchen {
   line-height: 10px;
 }
 
-#notes {
+.notes {
   font-style: italic;
   color: #999999;
 }
