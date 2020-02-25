@@ -1,7 +1,4 @@
 /* font-family: "Raleway", sans-serif; */
-body {
-  font-family: "Raleway", sans-serif;
-}
 .introduction {
   font-family: "Raleway", sans-serif;
   text-align: center;
@@ -30,6 +27,7 @@ p#kitchen {
 
 #image {
   padding-bottom: 30px;
+  padding-top: 0;
 }
 
 #room {
@@ -101,11 +99,11 @@ p#kitchen {
   color: #999999;
 }
 
-#FOOTNOTES {
+.FOOTNOTES {
   font-family: "Raleway", sans-serif;
   text-align: left;
   color: #83A2A3;
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
   line-height: 18px;
   padding-top: 3%;
