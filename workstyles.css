@@ -3,5 +3,9 @@ font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif;
 */
 img {
-  width: 200px;
+  width: 500px;
+}
+
+h1, h2{
+  font-family: 'Playfair Display', serif;
 }
