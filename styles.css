@@ -35,10 +35,34 @@ h3 {
   font-size: 28px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+}
+
+.hello div {
+  height: 100px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+img {
+  width: 350px;
+  transform: rotate(-20deg);
+  margin-left: 50px;
+}
+
 p {
   font-family: 'Lato', sans-serif;
   line-height: 30px;
   font-size: 20px;
+}
+
+#source p {
+  font-size: 12px;
+  text-align: center;
 }
 
 ul {
