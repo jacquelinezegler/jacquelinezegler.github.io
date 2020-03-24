@@ -2,10 +2,176 @@
 font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif;
 */
-img {
-  width: 500px;
+
+
+#content {
+	margin: 0 auto;
+	width: 950px;
+  align-content: center;
 }
 
-h1, h2{
+h1, h2, h3, h6 {
   font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 56pt;
+  margin-bottom: 0px;
+}
+
+h2 {
+  padding-top: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+	margin-right: 10px;
+  font-size: 48px;
+}
+
+.intro img {
+  width: 300px;
+margin-left: 30px;
+margin-top: 25px;
+margin-bottom: 20px;
+border-radius: 50%;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.hello div {
+  height: 300px;
+  margin-left: 0;
+  flex-grow: 1;
+}
+
+.emphasis {
+  color: #961625;
+}
+
+ul {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li::after {
+  content: "|";
+  padding: 6px;
+}
+
+ul li:last-child::after {
+  content: "";
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+  color: #961625;
+}
+
+a:visited {
+  color: #818c9f;
+}
+
+a:hover {
+  color: #d90429
+}
+
+#social {
+  margin-left: 100px;
+  padding-top: 0;
+	margin: 0 auto;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+}
+
+#social h5 {
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.fa a {
+  color: white;
+}
+
+a:visited.fa  {
+	color: white;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  width: 20px;
+	height: 20px;
+  text-align: center;
+  text-decoration: none;
+	border-radius: 50%;
+  margin: 5px 2px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#pillows {
+  margin-right: 5px;
+}
+
+#swing {
+  margin-left: 5px;
+}
+
+#clothes {
+  margin-right: 5px;
+}
+
+#folk {
+  margin-left: 5px;
+}
+
+.videos p {
+  font-size: 15px;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+
+#icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%
 }
