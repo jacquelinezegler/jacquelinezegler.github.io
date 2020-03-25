@@ -30,6 +30,14 @@ h2 {
   font-size: 48px;
 }
 
+h6 {
+	padding-top: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+	margin-right: 10px;
+  font-size: 25px;
+}
+
 .intro img {
   width: 300px;
   margin-left: 30px;
@@ -175,6 +183,18 @@ a:visited.fa  {
 
 #eurydice {
   margin-left: 5px;
+}
+
+.videos h2 {
+  text-align: center;
+}
+
+.Pictures h2 {
+  text-align: center;
+}
+
+.words h2 {
+  text-align: center;
 }
 
 .videos p {
