@@ -183,6 +183,10 @@ a:visited.fa  {
   color: white;
 }
 
+iframe {
+	border: none
+}
+
 #pillows {
   margin-right: 5px;
 }
