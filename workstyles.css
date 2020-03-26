@@ -40,10 +40,11 @@ h6 {
 
 .intro img {
   width: 300px;
-  margin-left: 30px;
+  height: 300px;
+  margin-left: 75px;
   margin-top: 25px;
   margin-bottom: 20px;
-  border-radius: 50%;
+	border-radius: 50%;
 }
 
 .intro {
@@ -55,7 +56,6 @@ h6 {
 }
 
 .header {
-	padding: 5px;
   background: #edf2f4;
   color: #14151e;
 	font-size: 15px;
@@ -76,7 +76,7 @@ h6 {
 
 .alignleft {
 	padding-right: 50px;
-	padding-left: 75px;
+	padding-left: 10px;
 	font-weight: bold;
 }
 
