@@ -54,6 +54,37 @@ h6 {
   justify-content: center;
 }
 
+.header {
+	padding: 5px;
+  background: #edf2f4;
+  color: #14151e;
+	font-size: 15px;
+	text-align: center;
+	display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+}
+
+#headericon img {
+	width: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	display: inline-block;
+	margin:0 auto;
+}
+
+.alignleft {
+	padding-right: 50px;
+	padding-left: 75px;
+	font-weight: bold;
+}
+
+.alignright {
+		padding-left: 50px;
+			padding-right: 75px;
+}
+
 .hello div {
   height: 300px;
   margin-left: 0;
@@ -250,4 +281,9 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 10%
+}
+
+.footer {
+	  font-size: 12px;
+	  text-align: center;
 }

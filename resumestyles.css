@@ -37,6 +37,39 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
 }
 
+.header {
+	padding: 5px;
+  background: #edf2f4;
+  color: #14151e;
+	font-size: 15px;
+	text-align: center;
+	display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+}
+
+#headericon img {
+	width: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	display: inline-block;
+	margin:0 auto;
+}
+
+.alignleft {
+	padding-right: 50px;
+	padding-left: 75px;
+	font-weight: bold;
+}
+
+.alignright {
+		padding-left: 50px;
+			padding-right: 75px;
+}
+
+
+
 p {
   font-family: 'Lato', sans-serif;
 }
@@ -314,5 +347,10 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%
+  width: 10%;
+}
+
+.footer {
+	  font-size: 12px;
+	  text-align: center;
 }
